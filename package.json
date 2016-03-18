@@ -1,0 +1,38 @@
+{
+  "name": "beautify-text-cli",
+  "version": "1.0.0",
+  "description": "Automated typographic quotation and punctuation marks",
+  "bin": {
+    "beautify": "index.js"
+  },
+  "preferGlobal": true,
+  "scripts": {
+    "test": "xo"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dar5hak/beautify-text-cli.git"
+  },
+  "keywords": [
+    "text",
+    "typography",
+    "punctuation",
+    "quote",
+    "dash"
+  ],
+  "author": "Darshak Parikh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dar5hak/beautify-text-cli/issues"
+  },
+  "homepage": "https://github.com/dar5hak/beautify-text-cli#readme",
+  "dependencies": {
+    "beautify-text": "^1.0.0",
+    "glob": "^7.0.3",
+    "ramda": "^0.19.1",
+    "through2": "^2.0.1"
+  },
+  "devDependencies": {
+    "xo": "^0.13.0"
+  }
+}
