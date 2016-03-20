@@ -33,6 +33,7 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
+    "nixt": "^0.5.0",
     "xo": "^0.13.0"
   }
 }
