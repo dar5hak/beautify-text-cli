@@ -6,8 +6,12 @@
     "beautify": "index.js"
   },
   "preferGlobal": true,
+  "files": [
+      "index.js"
+  ],
   "scripts": {
-    "test": "xo"
+    "test": "xo && ava",
+    "pretest": "npm link"
   },
   "repository": {
     "type": "git",
