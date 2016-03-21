@@ -3,7 +3,6 @@
 const beautifyText = require('beautify-text');
 const fs = require('fs');
 const glob = require('glob');
-const R = require('ramda');
 const through2 = require('through2');
 
 if (process.argv.length > 2) {
