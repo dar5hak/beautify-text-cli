@@ -17,7 +17,7 @@ Input text via stdin or files. See output on stdout.
 
 ```sh
 $ # Piping
-$ echo "Hello world" | beautify
+$ echo '"Hello world"' | beautify
 “Hello world”
 
 $ # Interactive stdin
