@@ -7,7 +7,7 @@
   },
   "preferGlobal": true,
   "files": [
-      "index.js"
+    "index.js"
   ],
   "scripts": {
     "test": "xo && ava",
@@ -36,7 +36,7 @@
     "through2": "^2.0.1"
   },
   "devDependencies": {
-    "ava": "^0.13.0",
+    "ava": "^0.14.0",
     "nixt": "^0.5.0",
     "xo": "^0.13.0"
   }
