@@ -1,8 +1,9 @@
 #!/usr/bin/env node
 'use strict';
 
-const beautifyText = require('beautify-text');
 const fs = require('fs');
+
+const beautifyText = require('beautify-text');
 const glob = require('glob');
 const through2 = require('through2');
 
