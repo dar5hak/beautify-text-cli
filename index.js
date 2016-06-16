@@ -14,7 +14,7 @@ if (process.argv.length > 2) {
 		.reduce((acc, curr) => acc.concat(curr)) // concat all arrays into one
 		// TODO: Deduplicate
 		// .reduce((acc, curr) => acc.includes(curr) ? acc : acc.concat(curr))
-		.forEach((filename) => {
+		.forEach(filename => {
 			let fileReadStream = fs.createReadStream(filename);
 			beautifyStream(fileReadStream);
 		});
