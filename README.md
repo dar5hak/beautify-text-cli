@@ -1,4 +1,6 @@
 # beautify-text-cli
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/dar5hak/beautify-text-cli.svg)](https://greenkeeper.io/)
 > Automated typographic quotation and punctuation marks. CLI for [bevacqua/beautify-text](https://github.com/bevacqua/beautify-text).
 
 [![circleci build](https://img.shields.io/circleci/project/dar5hak/beautify-text-cli.svg?style=flat-square)](https://circleci.com/gh/dar5hak/beautify-text-cli)
