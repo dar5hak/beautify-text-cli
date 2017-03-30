@@ -10,12 +10,12 @@ const through2 = require('through2');
 if (process.argv.length > 2) {
 	process.argv
 		.slice(2)
-		.map(pattern => glob.sync(pattern)) // extract matched filenames
-		.reduce((acc, curr) => acc.concat(curr)) // concat all arrays into one
+		.map(pattern => glob.sync(pattern)) // Extract matched filenames
+		.reduce((acc, curr) => acc.concat(curr)) // Concat all arrays into one
 		// TODO: Deduplicate
 		// .reduce((acc, curr) => acc.includes(curr) ? acc : acc.concat(curr))
 		.forEach(filename => {
-			let fileReadStream = fs.createReadStream(filename);
+			const fileReadStream = fs.createReadStream(filename);
 			beautifyStream(fileReadStream);
 		});
 } else {
