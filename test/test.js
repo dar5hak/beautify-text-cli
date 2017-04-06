@@ -1,27 +1,39 @@
 const test = require('ava');
 const nixt = require('nixt');
 
-test('stdin via pipe', () => {
+test.cb('stdin via pipe', t => {
 	nixt()
 		.run('echo "Hello world" | beautify')
-		.stdout('“Hello world”');
+		.stdout('“Hello world”')
+		.end(() => {
+			t.end();
+		});
 });
 
-test('interactive stdin', () => {
+test.cb('interactive stdin', t => {
 	nixt()
 		.run('beautify')
 		.stdin('"Hello world"')
-		.stdout('“Hello world”');
+		.stdout('“Hello world”')
+		.end(() => {
+			t.end();
+		});
 });
 
-test('single file', () => {
+test.cb('single file', t => {
 	nixt()
 		.run('beautify test1.txt')
-		.stdout('“Hello world”');
+		.stdout('“Hello world”')
+		.end(() => {
+			t.end();
+		});
 });
 
-test('glob', () => {
+test.cb('glob', t => {
 	nixt()
 		.run('beautify test*.txt')
-		.stdout('“Hello world\nWait — ermm…”');
+		.stdout('“Hello world\nWait — ermm…”')
+		.end(() => {
+			t.end();
+		});
 });
