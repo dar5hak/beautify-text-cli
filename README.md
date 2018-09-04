@@ -1,8 +1,8 @@
 # beautify-text-cli
 > Automated typographic quotation and punctuation marks. CLI for [bevacqua/beautify-text](https://github.com/bevacqua/beautify-text).
 
-[![circleci build](https://img.shields.io/circleci/project/dar5hak/beautify-text-cli.svg?style=flat-square)](https://circleci.com/gh/dar5hak/beautify-text-cli)
-[![npm version](https://img.shields.io/npm/v/beautify-text-cli.svg?style=flat-square)](https://www.npmjs.com/package/beautify-text-cli)
+[![Travis (.org)](https://img.shields.io/travis/dar5hak/beautify-text-cli.svg?style=flat-square)](https://travis-ci.org/dar5hak/beautify-text-cli)
+[![npm](https://img.shields.io/npm/v/beautify-text-cli.svg?style=flat-square)](https://www.npmjs.com/package/beautify-text-cli)
 [![license](https://img.shields.io/npm/l/beautify-text-cli.svg?style=flat-square)](https://www.apache.org/licenses/LICENSE-2.0)
 
 ## Install
