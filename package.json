@@ -1,6 +1,6 @@
 {
   "name": "beautify-text-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Automated typographic quotation and punctuation marks",
   "bin": {
     "beautify": "index.js"
