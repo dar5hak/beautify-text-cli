@@ -10,7 +10,7 @@
     "index.js"
   ],
   "scripts": {
-    "test": "xo && ava",
+    "test": "prettier -c **/*.js && ava",
     "pretest": "npm link"
   },
   "repository": {
@@ -38,6 +38,6 @@
   "devDependencies": {
     "ava": "^5.1.0",
     "nixt": "^0.5.0",
-    "xo": "^0.53.1"
+    "prettier": "^3.2.5"
   }
 }
